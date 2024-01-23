@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doggy's kitchen - App de recetas</title>
+  <link rel="shortcut icon" href="./logoApp.png" type="image/x-icon">
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="" class="nombreApp"><img src="./logoApp.png" alt="" class="logoApp"><h1>Doggy's Kitchen</h1></a>
+  </nav>
+
+  
+  <main class="mainBusqueda">
+    <div class="mainApp">
+      <h2>Busca recetas para hacer o elige una aleatoria!</h2>
+      <h3>Favoritos</h3>
+      <div class="fav" id="fav">
+        
+      </div>
+
+      <!-- CONTENEDOR CATEGORIAS -->
+      <h3>Filtrar por categorias</h3>
+      <div class="categorias" id="contenedorCategorias">
+        
+  
+      </div>
+  
+  
+  
+      <!-- BUSQUEDA -->
+      <div class="inputBusqueda">
+        <input type="text" id="inputBusquedaRecetas">
+        <button class="btnBusqueda" id="btnBusqueda"><img src="./search.png" alt=""></button>
+        <button id="BotonBusquedaAleatoria" >Aleatorio</button>
+      </div>
+  
+      <!-- RECETAS -->
+      <div class="contenedorRecetas" id="contenedorRecetas">
+        <h1 class="busquedaNoEncontrada"> Busca la receta perfecta para tu dia!</h1>
+      </div>
+  
+      <!-- PREVIEW -->
+      <div class="seccionPreview" id="seccionPreview">
+        
+  
+  
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
